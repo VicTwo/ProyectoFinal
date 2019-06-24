@@ -1,0 +1,261 @@
+
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 650px;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #ffffff !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #ffffff !important;
+  }
+}
+
+.rgba-gradient {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
+  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 100%);
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.md-form label {
+  color: #000000;
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+.universo1{
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Texto{
+  text-align: justify;
+  font-size: 20px;
+
+}
+
+.view{
+  top: -20px;
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+.view3{
+  margin-top: 200px;margin-left: 60px;margin-right: -45px;
+}
+
+.view2{
+  margin-top: 200px;margin-left: 400px;margin-right: -45px;
+}
+
+
+
+#caja2,#caja3,#caja4{
+  background: #F4F4F4;
+  height: 400px;
+  border: 2px solid black;
+   text-align: center;
+   line-height: 5;
+   font-size: 60px;
+   color: black;
+   opacity: 0.9;
+
+}
+
+#caja21,#caja31,#caja41{
+  background: #F4F4F4;
+  opacity: 0.9;
+  height: 600px;
+  border: 5px solid white;
+   line-height: 5;
+   font-size: 60px;
+   color: black;
+   text-align: justify;
+
+}
+
+
+#caja2xs{
+  background: #F4F4F4;
+  height: 100px;
+  border: 5px solid white;
+   text-align: justify;
+   line-height: 5;
+   font-size: 12px;
+   color: black;
+}
+
+#caja3xs{
+  background: #F4F4F4;
+  height: 100px;
+  border: 5px solid white;
+   text-align: justify;
+   line-height: 5;
+   font-size: 12px;
+   color: black;
+}
+
+#caja4xs{
+  background: #F4F4F4;
+  height: 100px;
+  border: 5px solid white;
+   text-align: justify;
+   line-height: 5;
+   font-size: 12px;
+   color: black;
+}
+
+
+.social {
+	left: 0px; /* Establecemos la barra en la izquierda */
+	top: 0px; /* Bajamos la barra 200px de arriba a abajo */
+  right: 200px;
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+  /*share row buttons*/
+  .share-buttons-row{
+      height: 40px;
+
+  	display: -webkit-flex; /* Safari */
+      -webkit-align-items: center; /* Safari 7.0+ */
+      display: flex;
+      align-items: center;
+  }
+
+  .share-buttons-row > div {
+  	width: 40px;
+      height: 40px;
+      cursor: pointer;
+
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+
+  	text-align: center;
+  	float: left;
+  	margin-right: .3em;
+  	padding: 0;
+
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 20px 20px;
+  }
+
+
+   section{
+     margin: 50px auto; width: 1025px; height: 150px;
+     }
+     .rede{
+       width: 150px; height: 150px;
+       float: left;
+       margin-left: 20px;
+       transition: all 0.4s ease-out;
+       border-radius: 50%; }
+       .rede:hover{
+         cursor: pointer;
+         transform: translateY(-20px);
+
+     box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45);
+      }
+      .rede#facebook{
+        background-color: #2372a3;margin-top: -16
+        }
+        .rede#twitter{
+          background-color: #0084b4;
+          }
+          .rede#instagram{
+             background-color: #3f729b;
+             }
+             .rede#snap{ background-color: #fc0;
+               }
+                .rede#plus{
+                   background-color: #dd4b39;
+                    }
+                    .rede#youtube{
+                      background-color: #8B0000; }
+     .icone{
+      margin-top: -160px;
+      margin-left: 25px;
+       padding: 25px;
+       width: 100px; }
+
+  #cara2{
+  background: #F4F4F4;
+  height: 400px;
+  border: 5px solid white;
+
+}
+#cara{
+
+height: 400px;
+border: 5px solid white;
+
+}
